@@ -32,5 +32,6 @@ Batch size <code>**(batch_size)**</code> = 64
 4. Run <em>translation_test.py</em> to check the BLEU score per batch (batch size reduced to 32 to save GPU memory).
 
 ## Results
+From the sample result below, we can see that the Transformer model trains fairly well with similar BLEU score as the original paper. 
 
 ![Sample Image Result](images/image.png "Sample result")
