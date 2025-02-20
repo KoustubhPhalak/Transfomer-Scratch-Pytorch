@@ -1,5 +1,5 @@
 # Transfomer-Scratch-Pytorch
-Transformer from 'Attention is all you need' implemented from scratch in Pytorch.
+Transformer from '<em>**Attention is all you need**</em>' implemented from scratch in Pytorch.
 
 For training, I use the Europarl German-English training corpus. By training the transformer for 10 epochs, I roughly observe around 25-30 BLEU score, which is in the expected range of the original paper (28.4 BLEU score). The corpus can be downloaded [here](https://www.statmt.org/europarl/v7/de-en.tgz). For more language pair data, one can check [this link](https://www.statmt.org/europarl/)
 
@@ -30,3 +30,7 @@ Batch size <code>**(batch_size)**</code> = 64
 3. Run <em>main.py</em> to train the Transformer model and store it at checkpoints. With default setting, it runs for 10 epochs and is checkpointed every 2 epochs. The user can change this as needed. Also, with the above model setting, the training roughly takes 12.1GB of GPU memory on an NVIDIA RTX 4090 GPU.
 
 4. Run <em>translation_test.py</em> to check the BLEU score per batch (batch size reduced to 32 to save GPU memory).
+
+## Results
+
+![Sample Image Result](images/image.png "Sample result")
