@@ -6,7 +6,7 @@ For training, I use the Europarl German-English training corpus. By training the
 ## Transformer parameter values
 Model dimension <code>**(d_model)**</code> = 512
 
-Number of Attention Heads **(n_heads)** = 8
+Number of Attention Heads <code>**(n_heads)**</code> = 8
 
 Number of Encoders <code>**(num_encoder_layers)**</code> = 4
 
